@@ -23,6 +23,7 @@
 			<arg line="-prependJars ${${atg.root}//MyCustomModule//hotfix//p16512034_1011_v1_lib.jar -standalone ${runAssembler.ear.dir}//atg_production_lockserver.ear -m  ${store-prod-module.name}" />
 		</exec>
 		<!--
+		<echo>not required  ATGPublishing.ear</echo>
 		<echo>Creating  ATGPublishing.ear</echo>
 		<exec executable="${dynamo.home}/bin/runAssembler">
 			<arg line="-prependJars ${${atg.root}//MyCustomModule//hotfix//p16512034_1011_v1_lib.jar -standalone ${runAssembler.ear.dir}//atg_publishing_lockserver.ear -m  ${store-pub-module.name}" />
